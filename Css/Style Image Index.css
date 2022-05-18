@@ -1,0 +1,340 @@
+@charset "utf-8";
+@import url("../webfonts/bevan_regular/stylesheet.css");
+@import url("../webfonts/pacifico/stylesheet.css");
+
+
+/* CSS Document */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FDFDFD;
+}
+h1{
+	color: #FFFFFF;
+	padding: 0px;
+	position: relative;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+h3{
+	text-align: center;
+	line-height: auto;
+}
+
+.p1{
+	text-align: center;
+	line-height: auto;
+	font-family: lato;
+	font-style: normal;
+	font-weight: 100;
+	color: #FFFFFF;
+}
+
+
+.cdmx {
+  display: inline;
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+
+}
+
+.huix{
+  display: inline;
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.guadalajara{
+  display: inline;
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.monterrey{
+  display: inline;
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.sanpedro{
+  display: inline; 
+padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.pachuca{
+  display: inline; 
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.hermosillo{
+  display: inline; 
+  padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.acapulco{
+ display: inline; 
+ padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.cuernavaca{
+  display: inline; 
+padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.puebla{
+  display: inline; 
+padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.orizaba{
+  display: inline; 
+padding: 10px;
+  width: 160px;
+  height: 120px;
+  margin: 10px;
+}
+
+.zapopan{
+display: inline; 
+padding: 10px;
+  width: 160px;
+  height: 120px;
+margin: 10px;
+}
+
+.container1 {
+	top: 1%;
+	position: static;
+	max-width: auto; /* Maximum width */
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px; /* Center it */
+  
+}
+.container1 .content1 {
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 160px;
+	height: 80px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.edificiosp {
+	margin-left: 5px;
+	position: relative;
+	}
+
+	#style_tabla_2 th,#style_tabla_2 td{
+			border:1px solid#004366;
+		}
+		#style_tabla_2 tr:nth-chil(even){
+			background-color: #090A0F;
+			color: aliceblue;
+		}
+		#style_tabla_2 tr:nth-child(odd){
+			background-color: #457A6F;
+			color: aliceblue
+		}
+		#style_tabla_2 th{
+			background-color: #6A638C;
+			color: #F8CDE0;
+		}
+		.encabezado_par{
+	color: #AFAFF3;
+		}
+		.encabezado_impar{
+	color: #FBE0D7;
+		}
+.style_tabla_2 {
+	width: 100%;
+	position: relative;
+	padding: 5px;
+	}
+#style_tabla_2 {
+	width: 100%;
+	position: relative;
+	}
+.container_historia {
+  position: relative;
+  max-width: auto; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container_historia .content_historia {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 2px; /* Some padding */
+}
+.cont_lista {
+}
+.logo_ciudad {
+	width: 50%;
+}
+.container_noche {
+  position: relative;
+  width: 90%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_noche {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+	color: #FFFFFF;
+}
+
+.container_noche:hover .overlay_noche {
+  opacity: 1;
+}
+
+.text_noche {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+	#style_tabla_3 th,#style_tabla_3 td{
+			border:1px solid#FF0206;
+		}
+		#style_tabla_3 tr:nth-chil(even){
+			background-color: #090A0F;
+			color: aliceblue;
+		}
+		#style_tabla_3 tr:nth-child(odd){
+			background-color: #457A6F;
+			color: aliceblue
+		}
+		#style_tabla_3 th{
+			background-color: #6A638C;
+			color: #F8CDE0;
+			position: center;
+		}
+		.encabezado_par{
+	color: #AFAFF3;
+		}
+		.encabezado_impar{
+	color: #FBE0D7;
+		}
+.style_tabla_3 {
+	width: 100%;
+	position: relative
+	}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container_formulario {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

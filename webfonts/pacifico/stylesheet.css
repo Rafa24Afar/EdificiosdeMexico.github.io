@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'pacifico';
+	src: url('Pacifico-Regular.ttf') format('truetype');
+	font-size: medium;
+}tr td p {
+	font-size: 14px;
+}
